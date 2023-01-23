@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.footerbox {
+  background-color: #333333; /* a dark gray background color */
+  color: white; /* text color will be white */
+  padding: 20px; /* add some padding to the footer */
+  position: fixed; /* position the footer at the bottom of the page */
+  bottom: 0; /* place the footer at the bottom */
+  width: 100%; /* make the footer the full width of the page */
+  display: flex; /* make the footer container a flex container */
+  justify-content: space-between; /* align the items to the left and right of the container */
+}
+
+.footerbox div {
+  color: white;
+  font-size:20px;
+  font-weight:bold;
+}
+.footerbox a {
+  color: white; /* text color will be white */
+  padding: 10px 20px; /* add some padding to the links */
+  text-decoration: none; /* remove underline from links */
+  margin: 0 10px; /* add some margin between links */
+  border-radius: 5px; /* add some roundness to the edges of the links */
+  background-color: #444444; /* set a background color for the links */
+  transition: background-color 0.2s ease; /* add a transition for the background color */
+}
+.footerbox a:hover {
+  background-color: #555555; /* change the background color on hover */
+}
+
+
+
+
+
+
+.navbar {
+  background-color: #333333; /* a dark gray background color */
+  color: white; /* text color will be white */
+  text-align: center; /* center align the text */
+  padding: 20px; /* add some padding to the navbar */
+  width: 100%; /* make the navbar the full width of the page */
+}
+.navcontainer{
+    display: flex;
+    justify-content: center;
+}
+.navbar a {
+  color: white; /* text color will be white */
+  padding: 10px 20px; /* add some padding to the links */
+  text-decoration: none; /* remove underline from links */
+  margin: 0 10px; /* add some margin between links */
+  border-radius: 5px; /* add some roundness to the edges of the links */
+  background-color: #444444; /* set a background color for the links */
+  transition: background-color 0.2s ease; /* add a transition for the background color */
+}
+.navbar a:hover {
+  background-color: #555555; /* change the background color on hover */
+}
+.name {
+    text-align: center;
+    color: white;
+    font-size:50px;
+    font-weight:bold;
+}
