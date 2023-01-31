@@ -3,7 +3,7 @@ import { Button, Container, ListGroup } from "react-bootstrap";
 
 export default function Resume() {
   const [wordFileUrl, setWordFileUrl] = useState(
-    "https://example.com/resume.docx"
+    "https://docs.google.com/document/d/1pyTJO_2AiFJC7E6t5ESUESrVyvPtmTju/edit?usp=sharing&ouid=106197438695750612053&rtpof=true&sd=true"
   );
 
   return (
