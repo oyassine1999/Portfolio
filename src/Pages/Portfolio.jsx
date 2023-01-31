@@ -12,6 +12,7 @@ export default function Portfolio() {
 
   return (
     <div
+      className="d-flex align-items-center justify-content-center"
       style={{
         backgroundImage: `url(${BackgroundGif})`,
         backgroundSize: "cover",
@@ -19,29 +20,51 @@ export default function Portfolio() {
         height: "100vh",
       }}
     >
-      <div className="gifcards">
-        <img
-          src={Gif1}
-          alt="gif1"
-          onClick={() =>
-            redirectToSite("https://github.com/oyassine1999/E-Commerce")
-          }
-        />
-        <img
-          src={Gif2}
-          alt="gif2"
-          onClick={() => redirectToSite("http://site2.com")}
-        />
-        <img
-          src={Gif3}
-          alt="gif3"
-          onClick={() => redirectToSite("http://site3.com")}
-        />
-        <img
-          src={Gif4}
-          alt="gif4"
-          onClick={() => redirectToSite("http://site4.com")}
-        />
+      <div className="card-deck text-center">
+        <div className="card mb-4">
+          <img
+            className="card-img-top gif-card"
+            src={Gif1}
+            alt="gif1"
+            onClick={() =>
+              redirectToSite("https://github.com/oyassine1999/E-Commerce")
+            }
+          />
+        </div>
+        <div className="card mb-4">
+          <img
+            className="card-img-top gif-card"
+            src={Gif2}
+            alt="gif2"
+            onClick={() =>
+              redirectToSite("https://github.com/oyassine1999/Employee-Tracker")
+            }
+          />
+        </div>
+        <div className="card mb-4">
+          <img
+            className="card-img-top gif-card"
+            src={Gif3}
+            alt="gif3"
+            onClick={() =>
+              redirectToSite(
+                "https://github.com/oyassine1999/Read-me-generator."
+              )
+            }
+          />
+        </div>
+        <div className="card mb-4">
+          <img
+            className="card-img-top gif-card"
+            src={Gif4}
+            alt="gif4"
+            onClick={() =>
+              redirectToSite(
+                "https://github.com/oyassine1999/Team-Profile-Generator"
+              )
+            }
+          />
+        </div>
       </div>
     </div>
   );

@@ -124,10 +124,10 @@ code {
 .gifcards img {
   width: 25rem;
   height: 25rem;
-  margin-bottom: 15rem;
+  margin-bottom: 3rem;
   margin-right: 15rem;
   transition: all 0.3s ease-in-out;
-  top: 10rem;
+  top: 5rem;
   position: relative;
 }
 
