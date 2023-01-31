@@ -2,9 +2,7 @@ import { React } from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-
 import { AboutMe, Contact, Portfolio, Resume } from "./Pages";
-
 import "./App.css";
 
 function App() {
